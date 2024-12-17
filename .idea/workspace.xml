@@ -5,26 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8659e4-ef75-45d8-9295-a62f01a141a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/static/main/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/static/main/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/templates/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/templates/main/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/templates/main/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/templates/main/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/templates/main/new3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/templates/main/new4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nora1/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nora1/news/templates/news/news_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nora1/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nora1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/nora1/news/templates/news/news_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nora1/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nora1/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nora1/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/nora1/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nora1/nora1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nora1/nora1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nora1/nora1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nora1/nora1/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,13 +39,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

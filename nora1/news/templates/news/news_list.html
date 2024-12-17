@@ -1,0 +1,28 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    <title>Новости</title>
+{% endblock %}
+
+{% block content%}
+    <h1>Новости</h1>
+    <div class="p-4 bg-light text-center rounded shadow-sm mb-4">
+    <h1 class="display-5 fw-bold text-success">Новости Flower Fast Delivery</h1>
+        <!--{{news}}-->
+        {% for news in news %}
+            <h2>{{ news.title }}</h2>
+            <p><strong>Автор:</strong> {{ news.author.username }}</p>
+            <p>{{ news.short_description }}</p>
+            <p><a href="{% url 'news_detail' news.id %}">Читать далее...</a></p>
+            <hr>
+        {% endfor %}
+
+
+
+
+
+
+
+    </div>
+
+{% endblock %}
